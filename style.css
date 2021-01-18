@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    background: url("../intro_01.jpg");
+    background-size: cover;
+}
+
+/*Header Menu*/
+header {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000px;
+    background-color:#ffa197;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'MADE Sunflower';
+    font-size: 30px;
+    color: black;
+}
+
+.nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.nav_link:hover {
+     color: #fce38a;
+}
+
+/*Profile*/
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#me .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+ 
+/*Text 1st Page*/
+
+#me h1 {
+    font-family: 'MADE Sunflower';
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#me h1:after {
+    content:"";
+    display: block;
+    width: 400px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#me h3 {
+    font-family: 'MADE Sunflower';
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+#me p {
+    font-family: 'MADE Sunflower';
+    font-size: 14px;
+}
+
+/*Text 2nd Page*/
+
+#about h1 {
+    font-family: 'MADE Sunflower';
+    font-size: 40px;
+    
+}
+
+#about h1:after {
+    content:"";
+    display: block;
+    width: 200px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#about p {
+    font-size: 15px;
+}
+
+#about h3 {
+    font-family: 'MADE Sunflower';
+    font-size: 20px;
+}
+
+/*Text 3rd Page*/
+
+#achievements h1 {
+    font-family: 'MADE Sunflower';
+    font-size: 40px;
+    text-align: center;
+}
+
+#achievements h1:after {
+    content:"";
+    display: block;
+    width: 300px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#achievements ul li {
+    font-family: 'MADE Sunflower';
+    font-size: 20px;
+}
+
+.pictures {
+    width: 378px;
+    height: 290px;
+    margin: 30px 30px;
+}
+
+/*Text 4th Page*/
+
+#contacts h2:after {
+    content:"";
+    display: block;
+    width: 200px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#contacts ul li {
+    font-size: 25px;
+}
+
+#contacts p {
+    font-size: 25px;
+}
+
+section h2 {
+    font-family: 'MADE Sunflower';
+    font-size: 30px;
+}
+
+#contacts h3 {
+    text-transform: uppercase;
+    font-family: 'MADE Sunflower';
+    font-size: 30px;
+    margin: 100px 0 0 0;
+}
+
+#contacts h4 {
+    font-family: 'MADE Sunflower';
+    font-size: 15px;
+    margin: 30px;
+}
+
+.social{
+    margin: 10px;
+    color: black;
+    transition: color 0.2s linear;
+    text-decoration: none;
+}
+
+.social:hover {
+     color: #ffa197;
+}
+
+/*.qrCode { 
+    width: 100%;
+    max-width: 200px;
+}*/
+
+
+
+
